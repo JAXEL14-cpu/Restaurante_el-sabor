@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "Restaurante El Sabor",
+    "slug": "RendimientoApp",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#28160C",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#28160C"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Usamos la cámara para tomar la foto de los platos que agregas al menú.",
+          "microphonePermission": false,
+          "recordAudioAndroid": false,
+          "barcodeScannerEnabled": false
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Selecciona una foto para agregarla a un plato del menú.",
+          "microphonePermission": false
+        }
+      ]
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#28160C",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "name": "Restaurante El Sabor",
+      "shortName": "El Sabor",
+      "lang": "es",
+      "themeColor": "#251309",
+      "backgroundColor": "#28160C",
+      "output": "single",
+      "bundler": "metro"
+    },
+    "experiments": {
+      "baseUrl": "/RendimientoApp"
+    }
+  }
+}
