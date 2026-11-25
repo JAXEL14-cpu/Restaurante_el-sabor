@@ -52,7 +52,7 @@
       "bundler": "metro"
     },
     "experiments": {
-      "baseUrl": "/RendimientoApp"
+      "baseUrl": "/Restaurante_el-abor"
     }
   }
 }
