@@ -52,7 +52,7 @@
       "bundler": "metro"
     },
     "experiments": {
-      "baseUrl": "/Restaurante_el-abor"
+      "baseUrl": "/Restaurante_el-sabor"
     }
   }
 }

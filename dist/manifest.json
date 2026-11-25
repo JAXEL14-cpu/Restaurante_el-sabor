@@ -1,6 +1,6 @@
 {
-  "name": "El sabor",
-  "short_name": "Restaurante El Sabor",
+  "name": "Restaurante El Sabor",
+  "short_name": "El Sabor",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
